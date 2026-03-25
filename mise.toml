@@ -33,15 +33,6 @@ else
 fi
 '''
 
-# Continuous Integration
-[tasks.ci]
-description = "Run all CI gates"
-depends = [
-  "format --check",
-  "build",
-]
-run = "echo CI completed successfully"
-
 # Clean
 [tasks.clean]
 description = "Remove build artifacts"
