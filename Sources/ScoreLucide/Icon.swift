@@ -21,7 +21,7 @@ public struct Icon {
     }
 
     public var body: some Node {
-        Stack {}
+        Span {}
             .className("icon-\(name)")
             .font(size: size, lineHeight: 1, color: color)
             .size(width: .pixels(size), height: .pixels(size))
